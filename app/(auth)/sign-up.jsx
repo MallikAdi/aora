@@ -1,11 +1,11 @@
-import { Link } from "expo-router";
-import { View, Text, ScrollView, Image } from "react-native";
+import { Image, ScrollView, Text, View } from "react-native";
 import { React, useState } from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
 
-import { images } from "../../constants";
-import FormField from "../../components/FormField";
 import CustomButton from "../../components/CustomButton";
+import FormField from "../../components/FormField";
+import { Link } from "expo-router";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { images } from "../../constants";
 
 const SignUp = () => {
   const [form, setForm] = useState({

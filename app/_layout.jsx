@@ -1,7 +1,8 @@
-import { StyleSheet, Text, View } from "react-native";
 import { SplashScreen, Stack } from "expo-router";
-import { useFonts } from "expo-font";
+import { StyleSheet, Text, View } from "react-native";
+
 import { useEffect } from "react";
+import { useFonts } from "expo-font";
 
 SplashScreen.preventAutoHideAsync();
 
